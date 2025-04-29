@@ -2,7 +2,9 @@
 
 Génère un nombre pseudo-aléatoire en utilisant le nombre de trains en retard et annulés de la SNCF.
 
-Les données en temps réel sont récupérées via l'API SNCF. Elles servent à initialiser un modèle de double pendule (système chaotique), dont l'état final est transformé en valeur pseudo-aléatoire.
+Les données en temps réel sont récupérées via l'API SNCF. Elles servent à initialiser un modèle de double pendule (système chaotique).
+
+Evidemment la répartition n'est pas uniforme ce qui en fait un générateur plutôt mauvais mais qui a le mérite d'être fun non?
 
 ## Utilisation
 
